@@ -1,6 +1,6 @@
 @media (max-width:1189px){
   body{
-    min-width: 100%;
+    min-width: 320px;
   }
 
   .intro-content,
@@ -74,14 +74,21 @@
 
 
 
-@media (max-width:886px){
-  .text-box{
-    min-height: 350px;
+@media (max-width:854px){
+  .intro-content h1{
+    margin-bottom: 90px;
+    font-size: 35px;
+  }
+  
+  .main-header-wrapper{
+    min-height: 65px;
   }
 
   .main-header{
+    height: 65px;
     position: relative;
   }
+  
 
   #menu{display:none;}
   .trigger{
@@ -103,17 +110,7 @@
   .show{
     display: block !important;
   }
-}
 
-
-
-
-@media (max-width:854px){
-
-  .intro-content h1{
-    margin-bottom: 90px;
-    font-size: 35px;
-  }
 
   .about-us h2 span, 
   .portfolio h2 span, 
@@ -131,6 +128,10 @@
   .about-us-list li{
     width: 45%;
     margin-bottom: 30px;
+  }
+
+  .text-box{
+    min-height: 350px;
   }
 
   .text-box h2{
@@ -196,14 +197,7 @@
     padding: 17px 12px;
   }
 
-  header.main-header-wrapper{
-    min-height: 65px;
-  }
-
-  div.main-header{
-    height: 65px;
-  }
-
+ 
   .about-us h2 span, 
   .portfolio h2 span, 
   .clients h2 span, 
