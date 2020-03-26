@@ -1,0 +1,239 @@
+@media (max-width:1189px){
+  body{
+    min-width: 100%;
+  }
+
+  .intro-content,
+  .main-header,
+  .about-us,
+  .portfolio,
+  .clients,
+  .contact-us,
+  .text-box,
+  .footer-wrapper footer{
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .portfolio{
+    min-height: 100%;
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+
+  .portfolio-list{
+   justify-content: space-around;
+   padding-left: 5px;
+  }
+
+  .portfolio-list li{
+    margin-right: 5px;
+  }
+
+  .checkbox,
+  .radiobutton,
+  .info input{
+    width: 49%;
+  }
+}
+
+
+
+@media (max-width:1131px){
+  .about-us,
+  .portfolio,
+  .clients,
+  .contact-us{
+    min-height: 100%;
+    padding: 40px 10px;
+  }
+
+  .text-box{
+    min-height: 500px;
+    padding: 40px 10px;
+  }
+
+  .about-us h2,
+  .portfolio h2,
+  .clients h2,
+  .contact-us h2{
+    margin-bottom: 40px;
+    font-size: 20px;
+  }
+}
+
+
+
+
+@media (max-width:996px){
+  .contact-us form{
+    width: 100%;
+  }
+}
+
+
+
+@media (max-width:886px){
+  .text-box{
+    min-height: 350px;
+  }
+
+  .main-header{
+    position: relative;
+  }
+
+  #menu{display:none;}
+  .trigger{
+    display:inline-block;
+    margin:3px;
+    cursor:pointer;
+    position: relative;
+    z-index: 13;
+  }
+
+  .trigger i{
+    display:block;
+    width:40px;
+    height:3px;
+    margin:4px auto;
+    background: #131316;
+  }
+
+  .show{
+    display: block !important;
+  }
+}
+
+
+
+
+@media (max-width:854px){
+
+  .intro-content h1{
+    margin-bottom: 90px;
+    font-size: 35px;
+  }
+
+  .about-us h2 span, 
+  .portfolio h2 span, 
+  .clients h2 span, 
+  .contact-us h2 span{
+    margin-top: 14px;
+  }
+
+  .about-us-list{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+
+  .about-us-list li{
+    width: 45%;
+    margin-bottom: 30px;
+  }
+
+  .text-box h2{
+    font-size: 20px;
+  }
+
+  .clients-list{
+    flex-wrap: wrap;
+  }
+
+  .clients-list li{
+    width: 30%;
+    margin-bottom: 30px;
+  }
+
+  .row,
+  .info{
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  }
+
+  .checkbox,
+  .radiobutton,
+  .info input{
+    width: 100%;
+    margin-bottom: 17px;
+  }
+
+  .checkbox label{
+    margin-right: 62px;
+  }
+}
+
+
+
+
+@media (max-width:633px){
+  .intro{
+    min-height: 420px;
+  }
+
+  .intro-content{
+    height: 100%;
+  }
+
+  .logo{
+    margin-bottom: 25px;
+  }
+
+  .intro-content h1{
+    margin-bottom: 40px;
+    font-size: 28px;
+  }
+
+  .intro-content h1 span{
+    margin-bottom: 25px;
+    font-size: 12px;
+  }
+
+  .link-explore{
+    min-width: 45%;
+    margin-bottom: 30px;
+    padding: 17px 12px;
+  }
+
+  header.main-header-wrapper{
+    min-height: 65px;
+  }
+
+  div.main-header{
+    height: 65px;
+  }
+
+  .about-us h2 span, 
+  .portfolio h2 span, 
+  .clients h2 span, 
+  .contact-us h2 span{
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  .text-box{
+    min-height: 100%;
+  }
+
+   .about-us-list li{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .descr{
+    margin-bottom: 10px;
+  }
+
+  .text-box p{
+    font-size: 13px;
+  }
+
+  .footer-wrapper footer span{
+    font-size: 11px;
+  }
+
+  .social{
+    width: 40%;
+  }
+}
