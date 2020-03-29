@@ -12,6 +12,7 @@ a{
   color: #000;
 }
 
+
 /*INTRO*/
 
 .intro{
@@ -128,7 +129,7 @@ a{
   border: 1px solid #ffe600;
 }
 
-ul.show{
+/*ul.show{
   background: #fff;
   width: 100%;
   position: absolute;
@@ -148,7 +149,7 @@ ul.show li a {
   font-size: 25px;
   
 
-}
+}*/
 /*HEADER - THE END*/
 
 /*REAPITING ITEMS - ABOUT-US, PORTFOLIO, CLIENTS, CONTACT-US*/

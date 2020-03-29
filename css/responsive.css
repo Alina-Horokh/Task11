@@ -90,7 +90,7 @@
   }
   
 
-  #menu{display:none;}
+  .navigation ul.menu{display:none;}
   .trigger{
     display:inline-block;
     margin:3px;
@@ -107,10 +107,31 @@
     background: #131316;
   }
 
-  .show{
-    display: block !important;
+  .navigation ul.show{
+    display: block/* !important*/;
   }
 
+ul.show{
+  background: #fff;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 12;
+}
+
+ul.show li{
+  text-align: center;
+  margin-bottom: 5px;
+ 
+}
+
+ul.show li a {
+  width: calc(100% - 60px);
+  font-size: 25px;
+  
+
+}
 
   .about-us h2 span, 
   .portfolio h2 span, 
