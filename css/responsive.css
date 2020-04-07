@@ -61,8 +61,26 @@
     margin-bottom: 40px;
     font-size: 20px;
   }
-}
 
+  .about-us-list{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 0;
+  }
+
+  .about-us-list li{
+    width: 40%;
+    margin-bottom: 50px;
+  }
+
+   .about-us-list li:last-child{
+    margin-bottom: 0;
+  }
+
+  .descr{
+    margin-bottom: 20px;
+  }
+}
 
 
 
@@ -108,30 +126,35 @@
   }
 
   .navigation ul.show{
-    display: block/* !important*/;
+    display: block;
   }
 
-ul.show{
-  background: #fff;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 12;
-}
+  ul.show{
+    background: #fff;
+    width: 100%;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    z-index: 12;
+    text-align: center;
+    border-bottom: 1px solid #ffe600;
+  }
 
-ul.show li{
-  text-align: center;
-  margin-bottom: 5px;
- 
-}
+  ul.show li{
+    margin-bottom: 15px;
+   
+  }
 
-ul.show li a {
-  width: calc(100% - 60px);
-  font-size: 25px;
-  
+  ul.show li a {
+    width: 100%;
+    font-size: 30px;
+    border: none;
+  }
 
-}
+  ul.show li a:hover,
+  ul.show li a.active{
+    border: none;
+  }
 
   .about-us h2 span, 
   .portfolio h2 span, 
@@ -140,15 +163,8 @@ ul.show li a {
     margin-top: 14px;
   }
 
-  .about-us-list{
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 0;
-  }
-
   .about-us-list li{
     width: 45%;
-    margin-bottom: 30px;
   }
 
   .text-box{
@@ -170,19 +186,45 @@ ul.show li a {
 
   .row,
   .info{
-  flex-wrap: wrap;
-  margin-bottom: 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .info{
+    margin-bottom: 0;
   }
 
   .checkbox,
-  .radiobutton,
+  .radiobutton{
+    width: 40%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }  
+
+  .row label{
+    margin-right: 20px;
+    width: 70%;
+    margin-bottom: 17px;  
+  }
+
+
+  .checkbox label{
+    line-height: 19px;
+  }
+  
+  [type="checkbox"]:checked + label:after{
+    top: 3px;
+  }
+
+  .row label:last-child{
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
   .info input{
     width: 100%;
     margin-bottom: 17px;
-  }
-
-  .checkbox label{
-    margin-right: 62px;
   }
 }
 
@@ -218,7 +260,6 @@ ul.show li a {
     padding: 17px 12px;
   }
 
- 
   .about-us h2 span, 
   .portfolio h2 span, 
   .clients h2 span, 
@@ -231,7 +272,7 @@ ul.show li a {
     min-height: 100%;
   }
 
-   .about-us-list li{
+  .about-us-list li{
     width: 100%;
     margin-bottom: 50px;
   }
@@ -244,6 +285,15 @@ ul.show li a {
     font-size: 13px;
   }
 
+  .checkbox,
+  .radiobutton{
+    width: 50%;
+  }
+  
+   .row label{
+    margin-right: 0px;
+    width: 100%;
+  }
   .footer-wrapper footer span{
     font-size: 11px;
   }

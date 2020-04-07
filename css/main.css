@@ -11,6 +11,9 @@ a{
   font: 400 15px/18px 'Roboto', sans-serif;
   color: #000;
 }
+a:hover{
+  text-decoration: underline;
+}
 
 
 /*INTRO*/
@@ -70,10 +73,15 @@ a{
 
 .link-explore:hover{
   background: #b1b1b3;
+  text-decoration: none;
 }
 
 .icon-arrow-down{
   padding: 5px;
+}
+
+.icon-arrow-down:hover{
+  text-decoration: none;
 }
 
 .icon-arrow-down:after{
@@ -127,29 +135,9 @@ a{
 .navigation ul li a.active{
   color: #131316;
   border: 1px solid #ffe600;
+  text-decoration: none;
 }
 
-/*ul.show{
-  background: #fff;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 12;
-}
-
-ul.show li{
-  text-align: center;
-  margin-bottom: 5px;
- 
-}
-
-ul.show li a {
-  width: calc(100% - 60px);
-  font-size: 25px;
-  
-
-}*/
 /*HEADER - THE END*/
 
 /*REAPITING ITEMS - ABOUT-US, PORTFOLIO, CLIENTS, CONTACT-US*/
@@ -446,6 +434,9 @@ ul.show li a {
   line-height: 16px;
   color: #131316;
   letter-spacing: -0.35px;
+}
+.row label:last-child{
+  margin-right: 0;
 }
 
 .checkbox,
